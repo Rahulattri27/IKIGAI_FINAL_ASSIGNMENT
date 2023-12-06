@@ -1,21 +1,4 @@
-// we are not getting any kinda component as outcome from this file thats 
-// why we have used .JS rather than .JSX
-// CONTEXT API is used to pass data from one component to another component
-// without passing it through each component manually
-// CONTEXT API is used to avoid PROPS DRILLING
-// IT IS DONE BY CREATING A CONTEXT AND PROVIDING IT TO THE COMPONENTS
-// WHICH NEEDS IT
-//  WE CAN USE CONTEXT API IN TWO WAYS
-// 1. USING CONTEXT API HOOKS WITH EXAMPLES
-// 2. USING CONTEXT API CONSUMER WITH EXAMPLES
-// CONTEXT API HOOKS
-// 1. createContext() is used to create a context
-// 2. useContext() is used to use the context
-// 3. Provider is used to provide the context to the components
-// 4. Consumer is used to consume the context from the provider
-// 5. we can use multiple context in a single component
-// 6. we can also use multiple provider in a single component
-// EXAMPLE
+
 
 
 import { useContext , createContext } from "react";
